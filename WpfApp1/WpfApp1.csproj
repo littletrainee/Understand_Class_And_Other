@@ -57,12 +57,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="user1\User1Control.xaml.cs">
-      <DependentUpon>User1Control.xaml</DependentUpon>
+    <Compile Include="JohnFolder\JohnControl.xaml.cs">
+      <DependentUpon>JohnControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="user2\User2.xaml.cs">
-      <DependentUpon>User2.xaml</DependentUpon>
+    <Compile Include="MaryFolder\MaryControl.xaml.cs">
+      <DependentUpon>MaryControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Student.cs" />
+    <Page Include="JohnFolder\JohnControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,11 +80,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="user1\User1Control.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="user2\User2.xaml">
+    <Page Include="MaryFolder\MaryControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

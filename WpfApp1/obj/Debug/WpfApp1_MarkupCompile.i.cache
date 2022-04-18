@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-H:\test\WpfApp1\WpfApp1\obj\Debug\
+H:\A\test\uc\WpfApp1\obj\Debug\
 WpfApp1
 none
 false
 DEBUG;TRACE
-H:\test\WpfApp1\WpfApp1\App.xaml
-3119066380
+H:\A\test\uc\WpfApp1\App.xaml
+3-126284029
 
-8-921715101
+9573270439
 15767508510
-MainWindow.xaml;user1\User1Control.xaml;user2\User2.xaml;
+JohnFolder\JohnControl.xaml;MainWindow.xaml;MaryFolder\MaryControl.xaml;
 
 True
 

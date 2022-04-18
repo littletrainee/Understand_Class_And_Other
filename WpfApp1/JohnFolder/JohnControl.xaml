@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="WpfApp1.JohnFolder.JohnControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" 
+             d:DesignWidth="800"
+             >
+  <Grid>
+    <!-- Name Label -->
+    <Label x:Name="NameLabel" 
+           Content="姓名:" 
+           HorizontalAlignment="Left" 
+           Margin="256,57,0,0" 
+           VerticalAlignment="Top" 
+           />
+    <!-- Name Value Label -->
+    <Label x:Name="NameValueLabel" 
+           HorizontalAlignment="Left" 
+           Margin="292,57,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Chinese Score Label -->
+    <Label x:Name="ChineseLabel" 
+           Content="國文:" 
+           HorizontalAlignment="Left" 
+           Margin="256,107,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Chinese Value Label-->
+    <Label x:Name="ChineseValueLabel" 
+           Content="100" 
+           HorizontalAlignment="Left" 
+           Margin="292,107,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Math Score -->
+    <Label x:Name="MathLabel" 
+           Content="數學:" 
+           HorizontalAlignment="Left" 
+           Margin="256,157,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Math Value Label -->
+    <Label x:Name="MathValueLabel" 
+           Content="90" 
+           HorizontalAlignment="Left" 
+           Margin="292,157,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Sciences Label -->
+    <Label x:Name="SciencesLabel" 
+           Content="自然:" 
+           HorizontalAlignment="Left" 
+           Margin="256,207,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Sciences Value Label -->
+    <Label x:Name="SciencesValueLabel" 
+           Content="80" 
+           HorizontalAlignment="Left" 
+           Margin="292,207,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Social Label -->
+    <Label x:Name="SocialLabel" 
+           Content="社會:" 
+           HorizontalAlignment="Left" 
+           Margin="256,257,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Social Value Label -->
+    <Label x:Name="SocialValueLabel" 
+           Content="65" 
+           HorizontalAlignment="Left" 
+           Margin="292,257,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Total Lable -->
+    <Label x:Name="TotalLabel" 
+           Content="總計:" 
+           HorizontalAlignment="Left" 
+           Margin="256,307,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Total Value Lable -->
+    <Label x:Name="TotalValueLabel" 
+           Content="0" 
+           HorizontalAlignment="Left" 
+           Margin="292,307,0,0" 
+           VerticalAlignment="Top"
+           />
+    <!-- Calculate Button -->
+    <Button x:Name="CalculateButton" 
+            Content="計算總分" 
+            HorizontalAlignment="Left" 
+            Margin="274,357,0,0" 
+            VerticalAlignment="Top" 
+            Click="Button"
+            />
+  </Grid>
+</UserControl>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 H:\A\test\uc\WpfApp1\App.xaml
-3119066380
+3-126284029
 
-71451474074
+8-1348507682
 15767508510
-MainWindow.xaml;user1\User1Control.xaml;user2\User2.xaml;
+JohnFolder\JohnControl.xaml;MainWindow.xaml;MaryFolder\MaryControl.xaml;
 
 False
 
