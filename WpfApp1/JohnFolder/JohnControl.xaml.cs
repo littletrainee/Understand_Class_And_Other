@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
+using WpfApp1;
 namespace WpfApp1.JohnFolder
 {
   /// <summary>
@@ -12,15 +13,8 @@ namespace WpfApp1.JohnFolder
     public JohnControl()
     {
       InitializeComponent();
-      Student = new Student()
-      {
-        Name = "John",
-        ChineseScore = Convert.ToInt32(ChineseValueLabel.Content),
-        MathScore = Convert.ToInt32(MathValueLabel.Content),
-        SciencesScore = Convert.ToInt32(SciencesValueLabel.Content),
-        Socialcore = Convert.ToInt32(SocialValueLabel.Content)
-      };
-      NameValueLabel.Content = Student.Name;
+      Student = MainWindow.John;
+      DataContext = Student;
     }
 
     private void Button(object sender, RoutedEventArgs e)

@@ -23,6 +23,7 @@
       Margin="292,57,0,0"
       HorizontalAlignment="Left"
       VerticalAlignment="Top"
+      Content="{Binding Name}"
       />
     <!--  Chinese Score Label  -->
     <Label
@@ -38,7 +39,7 @@
       Margin="292,107,0,0"
       HorizontalAlignment="Left"
       VerticalAlignment="Top"
-      Content="100"
+      Content="{Binding ChineseScore}"
       />
     <!--  Math Score  -->
     <Label
@@ -54,7 +55,7 @@
       Margin="292,157,0,0"
       HorizontalAlignment="Left"
       VerticalAlignment="Top"
-      Content="90"
+      Content="{Binding MathScore}"
       />
     <!--  Sciences Label  -->
     <Label
@@ -70,7 +71,7 @@
       Margin="292,207,0,0"
       HorizontalAlignment="Left"
       VerticalAlignment="Top"
-      Content="80"
+      Content="{Binding SciencesScore}"
       />
     <!--  Social Label  -->
     <Label
@@ -86,7 +87,7 @@
       Margin="292,257,0,0"
       HorizontalAlignment="Left"
       VerticalAlignment="Top"
-      Content="65"
+      Content="{Binding SocialScore}"
       />
     <!--  Total Lable  -->
     <Label

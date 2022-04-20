@@ -12,15 +12,8 @@ namespace WpfApp1.MaryFolder
     public MaryControl()
     {
       InitializeComponent();
-      Student = new Student()
-      {
-        Name = "Mary",
-        ChineseScore = Convert.ToInt32(ChineseValueLabel.Content),
-        MathScore = Convert.ToInt32(MathValueLabel.Content),
-        SciencesScore = Convert.ToInt32(SciencesValueLabel.Content),
-        Socialcore = Convert.ToInt32(SocialValueLabel.Content)
-      };
-      NameValueLabel.Content = Student.Name;
+      Student = MainWindow.Mary;
+      DataContext = Student;
     }
       private void Button(object sender, RoutedEventArgs e)
       {

@@ -11,8 +11,8 @@
   Height="600"
   mc:Ignorable="d"
   >
-  <Grid>
-    <JohnFolder:JohnControl />
-    <MaryFolder:MaryControl />
+  <Grid x:Name="gd">
+    <JohnFolder:JohnControl x:Name="JohnUserControl" />
+    <MaryFolder:MaryControl x:Name="MaryUserControl" />
   </Grid>
 </Window>
