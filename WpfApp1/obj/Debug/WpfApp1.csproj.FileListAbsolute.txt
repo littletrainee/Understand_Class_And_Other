@@ -36,7 +36,5 @@ H:\A\test\uc\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
 H:\A\test\uc\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 H:\A\test\uc\WpfApp1\obj\Debug\WpfApp1.exe
 H:\A\test\uc\WpfApp1\obj\Debug\WpfApp1.pdb
-H:\A\test\uc\WpfApp1\obj\Debug\JohnFolder\JohnControl.baml
-H:\A\test\uc\WpfApp1\obj\Debug\JohnFolder\JohnControl.g.cs
-H:\A\test\uc\WpfApp1\obj\Debug\MaryFolder\MaryControl.baml
-H:\A\test\uc\WpfApp1\obj\Debug\MaryFolder\MaryControl.g.cs
+H:\A\test\uc\WpfApp1\obj\Debug\StudentFolder\StudentControl.baml
+H:\A\test\uc\WpfApp1\obj\Debug\StudentFolder\StudentControl.g.cs

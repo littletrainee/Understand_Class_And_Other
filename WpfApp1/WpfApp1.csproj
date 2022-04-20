@@ -57,14 +57,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="JohnFolder\JohnControl.xaml.cs">
-      <DependentUpon>JohnControl.xaml</DependentUpon>
+    <Compile Include="StudentFolder\StudentControl.xaml.cs">
+      <DependentUpon>StudentControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MaryFolder\MaryControl.xaml.cs">
-      <DependentUpon>MaryControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Student.cs" />
-    <Page Include="JohnFolder\JohnControl.xaml">
+    <Compile Include="StudentFolder\Student.cs" />
+    <Page Include="StudentFolder\StudentControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -80,10 +77,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MaryFolder\MaryControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
